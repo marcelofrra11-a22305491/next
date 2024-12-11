@@ -1,7 +1,9 @@
 import React from 'react'
-import styles from '.Footer.module.css'
+import styles from './Footer.module.css'
 export default function Footer() {
-  return (
-    <div>Footer</div>
+  return <footer className={styles.footer}>
+    2024
+  </footer> 
+    
   )
 }
